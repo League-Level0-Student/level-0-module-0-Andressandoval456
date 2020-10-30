@@ -45,8 +45,11 @@
 // ellipse(100,100, 100,100);
 // 7. Now use all these shapes and colors to draw a picture of your own design. 
 fill(#113DD6);
+//fill is for color
 rect(200,200,300,100);
+//rect is for square
 fill(#394A4B);
 ellipse(250,350, 100,100);
+//ellipse is for circle 
 ellipse(450,350, 100,100);
 // MAKE SURE YOU SAVE YOUR CODE 
