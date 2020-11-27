@@ -10,6 +10,10 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotSpiral {
 
 	public static void main(String[] args) {
+		Robot bob = new Robot();
+		bob.penDown();
+		bob.setSpeed(10);
+		
 		
 		// Create a new Robot
 		
