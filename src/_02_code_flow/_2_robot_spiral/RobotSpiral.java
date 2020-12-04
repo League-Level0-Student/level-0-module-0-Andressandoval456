@@ -10,22 +10,27 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotSpiral {
 
 	public static void main(String[] args) {
-		Robot bob = new Robot();
-		bob.penDown();
-		bob.setSpeed(10);
+	//	Robot bob = new Robo
+	//	bob.penDown();
+	//	bob.setSpeed(5);
+	//	int count = 0;
+	//while ( count <50 ) {
+		bob.move(50);
+		count += 1;
+		bob.turn(7);}
 		
 		
 		// Create a new Robot
-		
+	Robot bob = new Robot();
 		// Set your robot's pen down 
-		
+	bob.penDown();
 		// SPEED. Set the robot to go at max speed (100)
-
+	bob.setSpeed(5);
 		// COUNT. Create an int variable that will count how many lines of the spiral we have drawn.
 			//        Start its value as zero.
-
+	int count = 0;
 		// LOOP. Start a while loop to repeat the COLOR, DRAW, TURN, and COUNT code below until 50 lines have been drawn
-
+	while ( count <50 ) {
 			// COLOR.   Have the robot set a random pen color:      setRandomPenColor()
 
 			// DRAW.    Move the robot (5*count) pixels
