@@ -32,7 +32,8 @@ public class MadlibsOfTheAmazon {
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up
-	JOptionPane.showMessageDialog(story)
+	JOptionPane.showMessageDialog(null,story);
+//	JOptionPane.showMessageDialog(null,"Hellow"+input);
 		// If you want to write your own Madlib story, just change the story variable and ask the player different questions.
 
 	}
