@@ -26,15 +26,19 @@ public class AwesomeOrNot {
 			// -- tell the user whatever they entered is awesome!
 	
 		// 6. If your variable is  1
-	
+	if(whole==(1)) {
 			// -- tell the user whatever they entered is ok.
-	
+		JOptionPane.showMessageDialog(null,awesome+"is ok");
+	}
 		// 7. If your variable is  2
-	
+	if(whole==(2)) {
 			// -- tell the user whatever they entered is boring.
-	
+		JOptionPane.showMessageDialog(null,awesome+"is boring.");
+	}
 		// 8. If your variable is  3
-	
+	if(whole==(3)) {
 			// -- invent your own message to give to the user (be nice).
+		JOptionPane.showMessageDialog(null,awesome+"I dont know what this is.");
+	}
 	}
 }
