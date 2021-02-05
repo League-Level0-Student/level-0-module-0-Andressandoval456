@@ -39,7 +39,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//2. Change the line of code below so that it uses YOUR maze's file name
-		maze = ImageIO.read(getClass().getResource("/headless/Downloads/pixil-frame-0.png"));
+		maze = ImageIO.read(getClass().getResource("pixil-frame-0-2.png"));
 		
 		
 		//3. Run the program. Do you see your maze? Don't continue until you do.
