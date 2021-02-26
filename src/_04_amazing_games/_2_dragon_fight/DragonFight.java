@@ -57,7 +57,7 @@ public class DragonFight {
 				// 8. Subtract the dragon attack value from the player's health
 			playerHealth -= dragonAttack;
 			// ASSESS THE DAMAGE
-
+			
 				// 9. If the player's health is less than or equal to 0, the game is over,
 				//    call the playerLost() method
 			if (playerHealth==0) {
