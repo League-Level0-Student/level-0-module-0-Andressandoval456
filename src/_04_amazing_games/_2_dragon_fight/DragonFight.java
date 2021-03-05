@@ -29,7 +29,7 @@ public class DragonFight {
 		int dragonAttack=0;
 		
 		//  This while statement will cause the game attack code to repeat
-		while (true) {
+		while ( dragonHealth >0 && playerHealth >0 ) {
 
 			// THE PLAYER ATTACKS THE DRAGON
 
@@ -37,14 +37,14 @@ public class DragonFight {
 				// or a kick
 			String attackDamage = JOptionPane.showInputDialog("Wil you use yell or kick.");
 				// 4. If they typed in "yell":
-			if (attackDamage=="yelle") {
+			if (attackDamage.equals ("yell")) {
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
 				
 				playerAttack = ran.nextInt(10);
 		}
 				// 5. If they typed in "kick":
-			if (attackDamage=="kick") {
+			if (attackDamage.equals ("kick")) {
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
 				playerAttack = ran.nextInt(25);
 			}		
@@ -60,12 +60,12 @@ public class DragonFight {
 			
 				// 9. If the player's health is less than or equal to 0, the game is over,
 				//    call the playerLost() method
-			if (playerHealth==0) {
+			if (playerHealth<=0) {
 				JOptionPane.showMessageDialog(null,"You Died");
 			}			
 				// 10. If the dragon's health is less than or equal to 0, the game is over,
 				//     call the dragonLost() method
-			if (dragonHealth==0) {
+			if (dragonHealth<=0) {
 				JOptionPane.showMessageDialog(null,"You won");
 			}		
 				// 11.  Pop up a message that tells us how much health the player and
